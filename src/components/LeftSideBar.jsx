@@ -1,12 +1,27 @@
+import SideBarIcon from "./SideBarIcon";
+
 const LeftSideBar = () => {
 	return (
-		<div className="row-start-2 h-full w-12 bg-white">
-			<ul>
-				<li>1</li>
-				<li>2</li>
-				<li>3</li>
-				<li>4</li>
-				<li>5</li>
+		<div className="row-start-2 h-full w-12">
+			<ul className="flex flex-col gap-3">
+				<li>
+					<SideBarIcon icon={"Home"} />
+				</li>
+				<li>
+					<SideBarIcon icon={"About Me"} />
+				</li>
+				<li>
+					<SideBarIcon icon={"Work Experience"} />
+				</li>
+				<li>
+					<SideBarIcon icon={"My Projects"} />
+				</li>
+				<li>
+					<SideBarIcon icon={"My Github"} />
+				</li>
+				<li>
+					<SideBarIcon icon={"Contact Me"} />
+				</li>
 			</ul>
 		</div>
 	);
