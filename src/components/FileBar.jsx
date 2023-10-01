@@ -11,8 +11,8 @@ const sidebarIcons = [
 const fileNames = [
 	"Home.jsx",
 	"AboutMe.html",
-	"experience.json",
-	"projects.js",
+	"Experience.json",
+	"Projects.js",
 	"Socials.css",
 ];
 

@@ -1,5 +1,5 @@
 import { TbBrandReact } from "react-icons/tb";
-import { FaCss3Alt, FaGithub, FaHtml5 } from "react-icons/fa";
+import { FaCss3Alt, FaHtml5 } from "react-icons/fa";
 import { VscJson } from "react-icons/vsc";
 import { RiJavascriptFill } from "react-icons/ri";
 
@@ -27,15 +27,13 @@ const FileName = ({ icon, fileName }) => {
 			{fileName === "AboutMe.html" && (
 				<FaHtml5 style={{ color: "#e34c26" }} />
 			)}
-			{fileName === "experience.json" && (
+			{fileName === "Experience.json" && (
 				<VscJson style={{ color: "#fbe30f" }} />
 			)}
-			{fileName === "projects.js" && (
+			{fileName === "Projects.js" && (
 				<RiJavascriptFill style={{ color: "#f4dc54" }} />
 			)}
-			{fileName === "Github.md" && (
-				<FaGithub style={{ color: "#8b0cec" }} />
-			)}
+
 			{fileName === "Socials.css" && (
 				<FaCss3Alt style={{ color: "#2c54e4" }} />
 			)}

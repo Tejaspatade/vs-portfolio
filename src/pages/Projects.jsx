@@ -10,28 +10,28 @@ const projs = [
 		url: "https://das-hotel.vercel.app/",
 	},
 	{
-		image: "lizard-spock-rock.png",
-		title: "Lizard-Spock-Rock",
+		image: "natours.png",
+		title: "Natours API",
 		description:
-			"Simple Rock-Paper-Scissors game with a twist. Inspired by The Big Bang Theory Show. Also adds Lizard & Spock.",
-		tags: ["HTML", "CSS", "JS"],
-		url: "https://spock-rock-tejas.netlify.app/",
+			"Backend with Database encompassing a comprehensive range of 20+ RESTful API routes for streamlined  tour management.",
+		tags: ["Node", "Expressjs", "AWS", "MongoDB"],
+		url: "https://documenter.getpostman.com/view/25621285/2s93mBwyri",
 	},
 	{
 		image: "sliced.png",
 		title: "Sliced",
 		description:
-			"Simple Rock-Paper-Scissors game with a twist. Inspired by TBBT",
-		tags: ["React", "Tailwind"],
+			"Pizza ordering app with beautiful UI built with Tailwind CSS",
+		tags: ["React", "Redux-Toolkit", "Tailwind"],
 		url: "https://sliced-tejas.netlify.app/",
 	},
 	{
-		image: "movied.png",
-		title: "Movied",
+		image: "lizard-spock-rock.png",
+		title: "Lizard-Spock-Rock",
 		description:
-			"Simple Rock-Paper-Scissors game with a twist. Inspired by TBBT",
-		tags: ["React", "Context API"],
-		url: "https://movied-tejas.netlify.app/",
+			"Simple Rock-Paper-Scissors game with a twist. Inspired by The Big Bang Theory show.",
+		tags: ["HTML", "CSS", "JS"],
+		url: "https://spock-rock-tejas.netlify.app/",
 	},
 ];
 
