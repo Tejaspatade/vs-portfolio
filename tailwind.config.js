@@ -11,7 +11,7 @@ export default {
 				"g-t-r-3": "2rem auto 1.5rem",
 			},
 			backgroundImage: {
-				bgimg: "url('bg.png')",
+				bgimg: "url('./bg.png')",
 			},
 		},
 	},
