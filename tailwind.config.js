@@ -8,7 +8,6 @@ export default {
 			},
 			gridTemplateRows: {
 				"g-t-r-3": "2rem auto 1.5rem",
-				auto: "auto",
 			},
 		},
 	},
