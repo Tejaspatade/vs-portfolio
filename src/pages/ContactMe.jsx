@@ -1,6 +1,6 @@
 const ContactMe = () => {
 	return (
-		<div className="w-full h-full pl-4 pt-4">
+		<div className="w-full flex-grow pl-4 pt-4">
 			<span className="text-[#35a7ad]">{".socials"}</span>{" "}
 			<span className="text-[#ab7611]">{"{"}</span> <br />
 			<section className="pl-8">

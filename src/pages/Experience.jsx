@@ -1,6 +1,6 @@
 const Experience = () => {
 	return (
-		<div className="w-full h-full pl-4 pt-4">
+		<div className="w-full flex-grow pl-4 pt-4">
 			<span className="text-[#ab7611]">{"{"}</span>
 			<section className="pl-8">
 				<span className="text-[#ab7611]">{'"experiences"'}</span>{" "}

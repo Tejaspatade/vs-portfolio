@@ -37,7 +37,7 @@ const projs = [
 
 const Projects = () => {
 	return (
-		<div className="w-full h-full pl-4 pt-4 grid grid-cols-4 gap-2 items-center">
+		<div className="w-full flex-grow pl-4 pt-8 grid grid-cols-4 gap-2 items-center">
 			{projs.map((proj, i) => (
 				<Project
 					key={i}

@@ -10,7 +10,7 @@ const ViewPage = () => {
 	const { active } = useActivePage();
 
 	return (
-		<div className="row-start-2 h-full bg-[#111418]">
+		<div className="row-start-2 h-full flex flex-col bg-[#111418]">
 			<FileBar />
 			{active === "Home" && <Home />}
 			{active === "About Me" && <AboutMe />}

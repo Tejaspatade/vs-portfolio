@@ -5,6 +5,7 @@ export default {
 		extend: {
 			gridTemplateColumns: {
 				"g-t-c-2": "3rem auto",
+				mobile: "2rem auto",
 			},
 			gridTemplateRows: {
 				"g-t-r-3": "2rem auto 1.5rem",
