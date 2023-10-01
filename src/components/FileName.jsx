@@ -36,7 +36,7 @@ const FileName = ({ icon, fileName }) => {
 			{fileName === "Github.md" && (
 				<FaGithub style={{ color: "#8b0cec" }} />
 			)}
-			{fileName === "ContactMe.css" && (
+			{fileName === "Socials.css" && (
 				<FaCss3Alt style={{ color: "#2c54e4" }} />
 			)}
 			<span className={`${active === icon ? "text-[#b7284a]" : ""}`}>

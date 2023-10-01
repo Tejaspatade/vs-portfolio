@@ -13,7 +13,7 @@ const fileNames = [
 	"AboutMe.html",
 	"experience.json",
 	"projects.js",
-	"ContactMe.css",
+	"Socials.css",
 ];
 
 const FileBar = () => {
