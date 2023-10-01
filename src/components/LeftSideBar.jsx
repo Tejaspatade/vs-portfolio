@@ -1,6 +1,6 @@
 const LeftSideBar = () => {
 	return (
-		<div className="row-start-2 bg-white">
+		<div className="row-start-2 h-full w-12 bg-white">
 			<ul>
 				<li>1</li>
 				<li>2</li>

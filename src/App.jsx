@@ -5,7 +5,7 @@ import ViewPage from "./components/ViewPage";
 
 function App() {
 	return (
-		<div className="h-screen grid grid-cols-2 grid-rows-3">
+		<div className="h-screen grid grid-cols-g-t-c-2 grid-rows-g-t-r-3 ">
 			<TopMenuBar />
 			<LeftSideBar />
 			<ViewPage />
