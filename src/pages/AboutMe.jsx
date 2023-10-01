@@ -1,13 +1,21 @@
 const AboutMe = () => {
 	return (
-		<div className="w-full h-full pl-4 pt-4">
+		<div className="w-full h-full pl-4 pt-4 relative">
+			<div className="absolute right-12 top-2">
+				<span className="text-[red]">{"<img>"}</span> <br />
+				<img src="me.jpg" alt="" className="w-44" />
+				<span className="text-[red] ml-auto">{"</img>"}</span>
+			</div>
 			<span className="text-[red]">{"<html "}</span>
 			<span className="text-[#ab7611]">{"lang="}</span>
 			<span className="text-[#088d79]">{"'en'"}</span>
 			<span className="text-[red]">{">"}</span> <br />
 			<span className="text-[red]">{"<head>"}</span> <br />
 			<section className="pl-8">
-				<span className="text-[red]">{"<title>"}</span>
+				<span className="text-[red]">{"<title "}</span>
+				<span className="text-[#ab7611]">{"style="}</span>
+				<span className="text-[#088d79]">{"'font-size:1.8rem;'"}</span>
+				<span className="text-[red]">{">"}</span>
 				<span className="text-3xl px-2">About Me</span>
 				<span className="text-[red]">{"</title>"}</span>
 			</section>
