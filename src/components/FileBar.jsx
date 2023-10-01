@@ -6,7 +6,6 @@ const sidebarIcons = [
 	"About Me",
 	"Work Experience",
 	"My Projects",
-	"My Github",
 	"Contact Me",
 ];
 const fileNames = [
@@ -14,7 +13,6 @@ const fileNames = [
 	"AboutMe.html",
 	"experience.json",
 	"projects.js",
-	"Github.md",
 	"ContactMe.css",
 ];
 

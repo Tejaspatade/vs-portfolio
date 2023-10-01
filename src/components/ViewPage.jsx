@@ -16,7 +16,6 @@ const ViewPage = () => {
 			{active === "About Me" && <AboutMe />}
 			{active === "Work Experience" && <Experience />}
 			{active === "My Projects" && <Projects />}
-			{active === "C" && <Home />}
 			{active === "Contact Me" && <ContactMe />}
 		</div>
 	);

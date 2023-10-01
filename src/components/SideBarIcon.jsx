@@ -1,6 +1,5 @@
 import { HiOutlineCode, HiOutlineHome } from "react-icons/hi";
 import { MdOutlineWorkHistory } from "react-icons/md";
-import { FiGithub } from "react-icons/fi";
 import { BiMailSend } from "react-icons/bi";
 import { GoPerson } from "react-icons/go";
 
@@ -26,7 +25,6 @@ const SideBarIcon = ({ icon }) => {
 			{icon === "About Me" && <GoPerson />}
 			{icon === "Work Experience" && <MdOutlineWorkHistory />}
 			{icon === "My Projects" && <HiOutlineCode />}
-			{icon === "My Github" && <FiGithub />}
 			{icon === "Contact Me" && <BiMailSend />}
 		</div>
 	);

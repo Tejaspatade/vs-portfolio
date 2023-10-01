@@ -1,6 +1,6 @@
 const AboutMe = () => {
 	return (
-		<div className="w-full h-full pl-4">
+		<div className="w-full h-full pl-4 pt-4">
 			<span className="text-[red]">{"<html "}</span>
 			<span className="text-[#ab7611]">{"lang="}</span>
 			<span className="text-[#088d79]">{"'en'"}</span>

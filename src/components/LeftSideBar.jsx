@@ -17,9 +17,6 @@ const LeftSideBar = () => {
 					<SideBarIcon icon={"My Projects"} />
 				</li>
 				<li>
-					<SideBarIcon icon={"My Github"} />
-				</li>
-				<li>
 					<SideBarIcon icon={"Contact Me"} />
 				</li>
 			</ul>
