@@ -13,19 +13,19 @@ const Experience = () => {
 						<span className="text-[#55575c]">:</span>{" "}
 						<span className="text-[#069870]">
 							{'"Full Stack Web-Dev Intern"'}
-						</span>{" "}
+						</span>
 						<span className="text-[#55575c]">,</span> <br />
 						<span className="text-[#ab7611]">
 							{'"company"'}
 						</span>{" "}
 						<span className="text-[#55575c]">:</span>{" "}
-						<span className="text-[#069870]">{'"EHS-Prints"'}</span>{" "}
+						<span className="text-[#069870]">{'"EHS-Prints"'}</span>
 						<span className="text-[#55575c]">,</span> <br />
 						<span className="text-[#ab7611]">
 							{'"location"'}
 						</span>{" "}
 						<span className="text-[#55575c]">:</span>{" "}
-						<span className="text-[#069870]">{'"Remote"'}</span>{" "}
+						<span className="text-[#069870]">{'"Remote"'}</span>
 						<span className="text-[#55575c]">,</span> <br />
 						<span className="text-[#ab7611]">
 							{'"duration"'}
@@ -33,7 +33,7 @@ const Experience = () => {
 						<span className="text-[#55575c]">:</span>{" "}
 						<span className="text-[#069870]">
 							{'"July 2023 - Sept 2023"'}
-						</span>{" "}
+						</span>
 						<span className="text-[#55575c]">,</span> <br />
 						<span className="text-[#ab7611]">{'"url"'}</span>{" "}
 						<span className="text-[#55575c]">:</span>{" "}
@@ -41,9 +41,10 @@ const Experience = () => {
 							className="text-[#069870] hover:underline-offset-4 hover:underline"
 							href="https://www.stencii.com"
 							target="_blank"
+							rel="noopener noreferrer"
 						>
 							{'"www.stencii.com"'}
-						</a>{" "}
+						</a>
 						<span className="text-[#55575c]">,</span> <br />
 						<span className="text-[#ab7611]">
 							{'"description"'}
@@ -53,7 +54,7 @@ const Experience = () => {
 							{
 								'"Developed the UI for their poster making & editing tool using React.JS, Redux, Tailwind & integrated with the backend on Node.JS, Express.JS with MongoDB"'
 							}
-						</span>{" "}
+						</span>
 						<span className="text-[#55575c]">,</span> <br />
 					</section>
 					<span className="text-[#1d7da9]">{"}"}</span>

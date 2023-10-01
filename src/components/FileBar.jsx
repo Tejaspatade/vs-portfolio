@@ -18,7 +18,7 @@ const fileNames = [
 
 const FileBar = () => {
 	return (
-		<div className="w-full bg-[#0c0f11] h-8  ">
+		<div className="w-full bg-[#0c0f11] h-8">
 			<ul className="flex h-full">
 				{fileNames.map((file, i) => (
 					<FileName key={i} icon={sidebarIcons[i]} fileName={file} />
