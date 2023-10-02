@@ -1,9 +1,9 @@
 const AboutMe = () => {
 	return (
-		<div className="w-full flex-grow pl-4 pt-4 relative overflow-y-scroll">
-			<div className="absolute right-12 top-2">
+		<div className="w-full flex-grow pl-2 pt-2 md:pl-4 md:pt-4 relative overflow-y-scroll">
+			<div className="hidden md:right-12 md:top-2 md:absolute">
 				<span className="text-[red]">{"<img>"}</span> <br />
-				<img src="me.jpg" alt="" className="w-44" />
+				<img src="me.jpg" alt="My Pic" className="w-44" />
 				<span className="text-[red] ml-auto">{"</img>"}</span>
 			</div>
 			<span className="text-[red]">{"<html "}</span>
@@ -11,25 +11,25 @@ const AboutMe = () => {
 			<span className="text-[#088d79]">{"'en'"}</span>
 			<span className="text-[red]">{">"}</span> <br />
 			<span className="text-[red]">{"<head>"}</span> <br />
-			<section className="pl-8">
+			<section className="pl-4 md:pl-8">
 				<span className="text-[red]">{"<title "}</span>
 				<span className="text-[#ab7611]">{"style="}</span>
 				<span className="text-[#088d79]">{"'font-size:1.8rem;'"}</span>
 				<span className="text-[red]">{">"}</span>
-				<span className="text-3xl px-2">About Me</span>
+				<span className="text-xl md:text-3xl px-2">About Me</span>
 				<span className="text-[red]">{"</title>"}</span>
 			</section>
-			<section className="pl-8">
+			<section className="pl-4 md:pl-8">
 				<span className="text-[red]">{"<name>"}</span>
 				<span className="text-lg px-2">Tejas Patade</span>
 				<span className="text-[red]">{"</name>"}</span>
 			</section>
-			<section className="pl-8">
+			<section className="pl-4 md:pl-8">
 				<span className="text-[red]">{"<location>"}</span>
 				<span className="text-lg px-2">Mumbai, India</span>
 				<span className="text-[red]">{"</location>"}</span>
 			</section>
-			<section className="pl-8">
+			<section className="pl-4 md:pl-8">
 				<span className="text-[red]">{"<age>"}</span>
 				<span className="text-lg px-2">20</span>
 				<span className="text-[red]">{"</age>"}</span>
@@ -37,7 +37,7 @@ const AboutMe = () => {
 			<span className="text-[red]">{"</head>"}</span> <br />
 			<span className="text-[red]">{"<body>"}</span>
 			{/*  */}
-			<section className="pl-8">
+			<section className="pl-4 md:pl-8">
 				<span className="text-[red]">{"<p>"}</span>
 				<p className="pl-8">
 					Well, I consider myself a lucky and accidental engineer. I

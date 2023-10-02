@@ -1,7 +1,7 @@
 function Project({ image, title, description, tags, url }) {
 	return (
 		<a href={url} target="_blank" rel="noopener noreferrer">
-			<div className="w-64 h-96 rounded bg-[#241e29] text-[whitesmoke] flex flex-col cursor-pointer ">
+			<div className="w-64 h-80 xl:h-96 rounded bg-[#241e29] text-[whitesmoke] place-self-center flex flex-col cursor-pointer ">
 				<img src={image} alt={title} className="w-full rounded" />
 				<div className="px-4 py-2">
 					<div className="font-bold text-sm mb-2 xl:text-base">
@@ -13,7 +13,7 @@ function Project({ image, title, description, tags, url }) {
 					{tags.map((tag, index) => (
 						<span
 							key={index}
-							className="inline-block rounded-full px-3 py-1 text-sm font-semibold mr-2 border-2 m-1"
+							className="inline-block rounded-full px-1 xl:px-3 py-0.5 text-xs xl:text-sm font-semibold mr-2 border-2 m-1"
 						>
 							{tag}
 						</span>

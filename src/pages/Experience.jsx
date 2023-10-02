@@ -1,14 +1,14 @@
 const Experience = () => {
 	return (
-		<div className="w-full flex-grow pl-4 pt-4">
+		<div className="w-full flex-grow pl-2 pt-2 md:pl-4 md:pt-4">
 			<span className="text-[#ab7611]">{"{"}</span>
-			<section className="pl-8">
+			<section className="pl-4 md:pl-8">
 				<span className="text-[#ab7611]">{'"experiences"'}</span>{" "}
 				<span className="text-[#55575c]">:</span>{" "}
 				<span className="text-[#a35fb8]">{"["}</span>
-				<section className="pl-8">
+				<section className="pl-4 md:pl-8">
 					<span className="text-[#1d7da9]">{"{"}</span> <br />
-					<section className="pl-8">
+					<section className="pl-4 md:pl-8">
 						<span className="text-[#ab7611]">{'"title"'}</span>{" "}
 						<span className="text-[#55575c]">:</span>{" "}
 						<span className="text-[#069870]">

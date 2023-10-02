@@ -13,9 +13,11 @@ import {
 
 const Home = () => {
 	return (
-		<div className="w-full flex-grow bg-white pl-8 pt-4 relative text-[#b7284a] select-none flex flex-col justify-center gap-2 bg-cover bg-center overflow-y-scroll bg-no-repeat bg-bgimg">
-			<h1 className="text-6xl font-bold">Tejas Patade</h1>
-			<h1 className="text-4xl font-semibold opacity-70">
+		<div className="w-full flex-grow bg-white pl-2 pt-2 md:pl-8 md:pt-4 relative text-[#b7284a] select-none flex flex-col justify-center gap-2 bg-cover bg-center overflow-y-scroll bg-no-repeat bg-bgimg">
+			<h1 className="text-4xl md:text-5xl lg:text-6xl font-bold">
+				Tejas Patade
+			</h1>
+			<h1 className="text-2xl md:text-3xl lg:text-4xl font-semibold opacity-70">
 				Full Stack Web Developer
 			</h1>
 			<div className="flex gap-1 items-center">
