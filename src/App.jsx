@@ -7,7 +7,7 @@ import ActivePageProvider from "./contexts/ActivePageContext";
 function App() {
 	return (
 		<ActivePageProvider>
-			<div className="h-screen grid grid-cols-g-t-c-2 grid-rows-g-t-r-3 ">
+			<div className="h-screen grid grid-cols-mobile xl:grid-cols-g-t-c-2 grid-rows-g-t-r-3 ">
 				<TopMenuBar />
 				<LeftSideBar />
 				<ViewPage />

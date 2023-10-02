@@ -13,7 +13,7 @@ import {
 
 const Home = () => {
 	return (
-		<div className="w-full flex-grow bg-white pl-8 pt-4 relative text-[#b7284a] select-none flex flex-col justify-center gap-2 bg-cover bg-center bg-no-repeat bg-bgimg">
+		<div className="w-full flex-grow bg-white pl-8 pt-4 relative text-[#b7284a] select-none flex flex-col justify-center gap-2 bg-cover bg-center overflow-y-scroll bg-no-repeat bg-bgimg">
 			<h1 className="text-6xl font-bold">Tejas Patade</h1>
 			<h1 className="text-4xl font-semibold opacity-70">
 				Full Stack Web Developer

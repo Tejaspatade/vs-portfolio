@@ -1,8 +1,8 @@
 const TopMenuBar = () => {
 	return (
 		<div className="col-span-2 h-8 flex items-center gap-3 relative">
-			<img src="favicon.png" alt="Logo" className="h-4" />
-			<ul className="flex gap-2 text-sm text-[#969ca2] cursor-default">
+			<img src="favicon.png" alt="Logo" className="h-4 ml-2" />
+			<ul className="md:flex hidden gap-2 text-sm text-[#969ca2] cursor-default">
 				<li className="hover:text-white">File</li>
 				<li className="hover:text-white">Edit</li>
 				<li className="hover:text-white">View</li>

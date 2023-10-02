@@ -24,7 +24,7 @@ const Footer = () => {
 				<VscWarning /> 0
 			</div>
 			<div className="flex items-center gap-3 ml-auto">
-				<div className="flex items-center gap-1 cursor-pointer">
+				<div className="md:flex items-center gap-1 cursor-pointer hidden">
 					<TbBrandReact /> Powered By React
 				</div>
 				<div className="flex items-center gap-1 cursor-pointer">

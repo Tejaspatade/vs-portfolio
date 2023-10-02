@@ -1,6 +1,6 @@
 const AboutMe = () => {
 	return (
-		<div className="w-full flex-grow pl-4 pt-4 relative">
+		<div className="w-full flex-grow pl-4 pt-4 relative overflow-y-scroll">
 			<div className="absolute right-12 top-2">
 				<span className="text-[red]">{"<img>"}</span> <br />
 				<img src="me.jpg" alt="" className="w-44" />

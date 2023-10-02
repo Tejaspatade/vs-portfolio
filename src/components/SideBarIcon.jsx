@@ -16,7 +16,7 @@ const SideBarIcon = ({ icon }) => {
 		<div
 			className={`py-2 px-1 flex justify-center text-3xl cursor-pointer hover:text-[#b7284a] ${
 				active === icon
-					? "text-[#b7284a] border-l-4 border-[#b7284a]"
+					? "text-[#b7284a] border-l-2 xl:border-l-4 border-[#b7284a]"
 					: ""
 			}`}
 			onClick={handleClick}

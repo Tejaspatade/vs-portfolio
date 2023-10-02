@@ -14,7 +14,7 @@ const FileName = ({ icon, fileName }) => {
 
 	return (
 		<li
-			className={`px-4 flex items-center gap-3 hover:text-white cursor-pointer ${
+			className={`px-4 flex items-center gap-1 text-sm xl:text-base xl:gap-3 hover:text-white cursor-pointer ${
 				active === icon
 					? "bg-[#111418] border-t-2 border-[#b7284a]"
 					: ""
