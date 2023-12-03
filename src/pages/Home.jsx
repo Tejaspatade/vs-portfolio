@@ -20,7 +20,7 @@ const Home = () => {
 			<h1 className="text-2xl md:text-3xl lg:text-4xl font-semibold opacity-70">
 				Full Stack Web Developer
 			</h1>
-			<div className="flex gap-1 items-center">
+			<div className="flex gap-1 items-center text-2xl">
 				<TbBrandReact style={{ color: "#61dbfb" }} />
 				<RiJavascriptFill style={{ color: "#f4dc54" }} />
 				<BiLogoTypescript style={{ color: "#2c74c3" }} />
@@ -28,12 +28,12 @@ const Home = () => {
 				<FaHtml5 style={{ color: "#e34c26" }} />
 				<FaCss3Alt style={{ color: "#2c54e4" }} />
 			</div>
-			<div className="flex gap-1 items-center">
+			<div className="flex gap-1 items-center text-2xl">
 				<SiNodedotjs style={{ color: "#559d46" }} />
 				<SiExpress style={{ color: "#9c9c9c" }} />
 				<SiAmazonaws style={{ color: "#f49a28" }} />
 			</div>
-			<div className="flex gap-1 items-center">
+			<div className="flex gap-1 items-center text-2xl">
 				<FaGithub style={{ color: "#8b0cec" }} />
 				<SiPostman style={{ color: "#f46c34" }} />
 				<SiMongodb style={{ color: "#04d25c" }} />
